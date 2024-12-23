@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 100px;
+    background: transparent;
+    gap: 10px;
+}
+
+.navbar a {
+    font-size: 15px;
+    margin: 0px 20px;
+    display: inline-block;
+    display: flex;
+}
+
+.navbar a:hover {
+    color: orangered;
+}
+
+button {
+    background-color: orangered;
+    font-size: 20px;
+    color: black;
+    height: 60px;
+    width: 210px;
+}
+
+.body {
+    gap: 500px;
+}
+
+.body h6 {
+    color: orangered;
+}
+
+.body h1 {
+    color: white;
+    font-size: 70px;
+}
